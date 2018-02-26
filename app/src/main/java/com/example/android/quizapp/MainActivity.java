@@ -60,28 +60,12 @@ public class MainActivity extends AppCompatActivity {
 
                 if (checkBox2_2.isChecked() && checkBox2_3.isChecked() && checkBox2_5.isChecked() && !checkBox2_1.isChecked() && !checkBox2_4.isChecked() && !checkBox2_6.isChecked())
                     incrementScoreByThree();
-                else if ((checkBox2_2.isChecked() && checkBox2_3.isChecked() && !checkBox2_5.isChecked() && !checkBox2_1.isChecked() && !checkBox2_4.isChecked() && !checkBox2_6.isChecked())
-                        || (checkBox2_2.isChecked() && !checkBox2_3.isChecked() && checkBox2_5.isChecked() && !checkBox2_1.isChecked() && !checkBox2_4.isChecked() && !checkBox2_6.isChecked())
-                        || (!checkBox2_2.isChecked() && checkBox2_3.isChecked() && checkBox2_5.isChecked() && !checkBox2_1.isChecked() && !checkBox2_4.isChecked() && !checkBox2_6.isChecked()))
-                    incrementScoreByTwo();
-                else if ((checkBox2_2.isChecked() && !checkBox2_3.isChecked() && !checkBox2_5.isChecked() && !checkBox2_1.isChecked() && !checkBox2_4.isChecked() && !checkBox2_6.isChecked())
-                        || (!checkBox2_2.isChecked() && !checkBox2_3.isChecked() && checkBox2_5.isChecked() && !checkBox2_1.isChecked() && !checkBox2_4.isChecked() && !checkBox2_6.isChecked())
-                        || (!checkBox2_2.isChecked() && checkBox2_3.isChecked() && !checkBox2_5.isChecked() && !checkBox2_1.isChecked() && !checkBox2_4.isChecked() && !checkBox2_6.isChecked()))
-                    incrementScoreByOne();
 
-                if (answer_three.getText().toString().toLowerCase().equals(getString(R.string.answer_3).toLowerCase()))
+                if (answer_three.getText().toString().equalsIgnoreCase(getString(R.string.answer_3)))
                     incrementScoreByTwo();
 
                 if (checkBox4_2.isChecked() && checkBox4_4.isChecked() && checkBox4_6.isChecked() && !checkBox4_1.isChecked() && !checkBox4_3.isChecked() && !checkBox4_5.isChecked())
                     incrementScoreByThree();
-                else if ((checkBox4_2.isChecked() && checkBox4_4.isChecked() && !checkBox4_6.isChecked() && !checkBox4_1.isChecked() && !checkBox4_3.isChecked() && !checkBox4_5.isChecked())
-                        || (checkBox4_2.isChecked() && !checkBox4_4.isChecked() && checkBox4_6.isChecked() && !checkBox4_1.isChecked() && !checkBox4_3.isChecked() && !checkBox4_5.isChecked())
-                        || (!checkBox4_2.isChecked() && checkBox4_4.isChecked() && checkBox4_6.isChecked() && !checkBox4_1.isChecked() && !checkBox4_3.isChecked() && !checkBox4_5.isChecked()))
-                    incrementScoreByTwo();
-                else if ((checkBox4_2.isChecked() && !checkBox4_4.isChecked() && !checkBox4_6.isChecked() && !checkBox4_1.isChecked() && !checkBox4_3.isChecked() && !checkBox4_5.isChecked())
-                        || (!checkBox4_2.isChecked() && !checkBox4_4.isChecked() && checkBox4_6.isChecked() && !checkBox4_1.isChecked() && !checkBox4_3.isChecked() && !checkBox4_5.isChecked())
-                        || (!checkBox4_2.isChecked() && checkBox4_4.isChecked() && !checkBox4_6.isChecked() && !checkBox4_1.isChecked() && !checkBox4_3.isChecked() && !checkBox4_5.isChecked()))
-                    incrementScoreByOne();
 
                 int answer_five = radioGroup2.getCheckedRadioButtonId();
                 if (answer_five == R.id.radio_button_5_4)
