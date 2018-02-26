@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/textIcons"
+    tools:context="com.example.android.quizapp.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        style="@style/RelativeLayoutTitle"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            style="@style/RelativeLayoutTitle"
+            android:layout_margin="@dimen/spacing8">
+
+            <ImageView
+                style="@style/RelativeLayoutTitle"
+                android:alpha="@string/alpha"
+                android:contentDescription="@string/picture"
+                android:src="@drawable/geo" />
+
+            <TextView
+                style="@style/RelativeLayoutTitle"
+                android:layout_centerInParent="true"
+                android:layout_margin="@dimen/spacing8"
+                android:text="@string/title"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/title_size" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/question1"
+            style="@style/QuestionsStyle"
+            android:drawableLeft="@drawable/n1"
+            android:drawableStart="@drawable/n1"
+            android:text="@string/question1" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_1"
+            style="@style/RadioGroupStyle">
+
+            <RadioButton
+                android:id="@+id/radio_button_1_1"
+                style="@style/RadioButtonStyle"
+                android:text="@string/radio_btn_1_1" />
+
+            <RadioButton
+                android:id="@+id/radio_button_1_2"
+                style="@style/RadioButtonStyle"
+                android:text="@string/radio_btn_1_2" />
+
+            <RadioButton
+                android:id="@+id/radio_button_1_3"
+                style="@style/RadioButtonStyle"
+                android:text="@string/radio_btn_1_3" />
+
+            <RadioButton
+                android:id="@+id/radio_button_1_4"
+                style="@style/RadioButtonStyle"
+                android:text="@string/radio_btn_1_4" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question2"
+            style="@style/QuestionsStyle"
+            android:drawableLeft="@drawable/n2"
+            android:drawableStart="@drawable/n2"
+            android:text="@string/question2" />
+
+        <LinearLayout style="@style/LinearLayoutGroupCheckBoxStyle">
+
+            <LinearLayout style="@style/GroupCheckBoxStyle">
+
+                <CheckBox
+                    android:id="@+id/check_box_2_1"
+                    style="@style/CheckBoxStyle"
+                    android:text="@string/check_box_2_1" />
+
+                <CheckBox
+                    android:id="@+id/check_box_2_2"
+                    style="@style/CheckBoxStyle"
+                    android:text="@string/check_box_2_2" />
+
+                <CheckBox
+                    android:id="@+id/check_box_2_3"
+                    style="@style/CheckBoxStyle"
+                    android:text="@string/check_box_2_3" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/GroupCheckBoxStyle">
+
+                <CheckBox
+                    android:id="@+id/check_box_2_4"
+                    style="@style/CheckBoxStyle"
+                    android:text="@string/check_box_2_4" />
+
+                <CheckBox
+                    android:id="@+id/check_box_2_5"
+                    style="@style/CheckBoxStyle"
+                    android:text="@string/check_box_2_5" />
+
+                <CheckBox
+                    android:id="@+id/check_box_2_6"
+                    style="@style/CheckBoxStyle"
+                    android:text="@string/check_box_2_6" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/question3"
+            style="@style/QuestionsStyle"
+            android:drawableLeft="@drawable/n3"
+            android:drawableStart="@drawable/n3"
+            android:text="@string/question3" />
+
+        <EditText
+            android:id="@+id/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing8"
+            android:hint="@string/edit_text_hint"
+            android:inputType="textCapSentences"
+            android:textColorHint="@color/textSecondary" />
+
+        <TextView
+            android:id="@+id/question4"
+            style="@style/QuestionsStyle"
+            android:drawableLeft="@drawable/n4"
+            android:drawableStart="@drawable/n4"
+            android:text="@string/question4" />
+
+        <LinearLayout style="@style/LinearLayoutGroupCheckBoxStyle">
+
+            <LinearLayout style="@style/GroupCheckBoxStyle">
+
+                <CheckBox
+                    android:id="@+id/check_box_4_1"
+                    style="@style/CheckBoxStyle"
+                    android:text="@string/check_box_4_1" />
+
+                <CheckBox
+                    android:id="@+id/check_box_4_2"
+                    style="@style/CheckBoxStyle"
+                    android:text="@string/check_box_4_2" />
+
+                <CheckBox
+                    android:id="@+id/check_box_4_3"
+                    style="@style/CheckBoxStyle"
+                    android:text="@string/check_box_4_3" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/GroupCheckBoxStyle">
+
+                <CheckBox
+                    android:id="@+id/check_box_4_4"
+                    style="@style/CheckBoxStyle"
+                    android:text="@string/check_box_4_4" />
+
+                <CheckBox
+                    android:id="@+id/check_box_4_5"
+                    style="@style/CheckBoxStyle"
+                    android:text="@string/check_box_4_5" />
+
+                <CheckBox
+                    android:id="@+id/check_box_4_6"
+                    style="@style/CheckBoxStyle"
+                    android:text="@string/check_box_4_6" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/question5"
+            style="@style/QuestionsStyle"
+            android:drawableLeft="@drawable/n5"
+            android:drawableStart="@drawable/n5"
+            android:text="@string/question5" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_2"
+            style="@style/RadioGroupStyle">
+
+            <RadioButton
+                android:id="@+id/radio_button_5_1"
+                style="@style/RadioButtonStyle"
+                android:text="@string/radio_btn_5_1" />
+
+            <RadioButton
+                android:id="@+id/radio_button_5_2"
+                style="@style/RadioButtonStyle"
+                android:text="@string/radio_btn_5_2" />
+
+            <RadioButton
+                android:id="@+id/radio_button_5_3"
+                style="@style/RadioButtonStyle"
+                android:text="@string/radio_btn_5_3" />
+
+            <RadioButton
+                android:id="@+id/radio_button_5_4"
+                style="@style/RadioButtonStyle"
+                android:text="@string/radio_btn_5_4" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_submit"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/spacing8"
+                android:layout_weight="@string/layout_weight"
+                android:text="@string/btn_submit"
+                android:theme="@style/ButtonColor" />
+
+            <Button
+                android:id="@+id/btn_share"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/spacing8"
+                android:layout_weight="@string/layout_weight"
+                android:text="@string/btn_share"
+                android:theme="@style/ButtonColor" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

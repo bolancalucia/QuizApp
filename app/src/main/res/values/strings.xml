@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="title">Geography Quiz</string>
+    <string name="picture">Geography</string>
+    <string name="question1"> What is the capital city of France?</string>
+    <string name="question2"> Select countries located in Asia.</string>
+    <string name="question3"> What is the capital city of Canada?</string>
+    <string name="question4"> Select countries not located in Africa.</string>
+    <string name="question5"> Select country whose capital city is Vilnius.</string>
+    <string name="edit_text_hint">Write answer here</string>
+    <string name="btn_submit">Submit</string>
+    <string name="btn_share">Share</string>
+    <string name="radio_btn_1_1">Nice</string>
+    <string name="radio_btn_1_2">Lyon</string>
+    <string name="radio_btn_1_3">Paris</string>
+    <string name="radio_btn_1_4">Toulouse</string>
+    <string name="radio_btn_5_1">Latvia</string>
+    <string name="radio_btn_5_2">Laos</string>
+    <string name="radio_btn_5_3">Liberia</string>
+    <string name="radio_btn_5_4">Lithuania</string>
+    <string name="check_box_2_1">Zimbabwe</string>
+    <string name="check_box_2_2">India</string>
+    <string name="check_box_2_3">Maldives</string>
+    <string name="check_box_2_4">Bolivia</string>
+    <string name="check_box_2_5">China</string>
+    <string name="check_box_2_6">Portugal</string>
+    <string name="check_box_4_1">Madagascar</string>
+    <string name="check_box_4_2">Lebanon</string>
+    <string name="check_box_4_3">Togo</string>
+    <string name="check_box_4_4">Oman</string>
+    <string name="check_box_4_5">Mali</string>
+    <string name="check_box_4_6">Peru</string>
+    <string name="answer_3">Ottawa</string>
+    <string name="highest_score">10</string>
+    <string name="layout_weight">1</string>
+    <string name="alpha">0.5</string>
+</resources>

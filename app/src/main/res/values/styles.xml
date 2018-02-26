@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="QuestionsStyle">
+        <item name="android:padding">@dimen/spacing16</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:drawablePadding">@dimen/spacing8</item>item>
+    </style>
+
+    <style name="CheckBoxStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="RadioButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="RadioGroupStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/spacing16</item>
+    </style>
+
+    <style name="GroupCheckBoxStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="LinearLayoutGroupCheckBoxStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/spacing16</item>
+        <item name="android:baselineAligned">false</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="RelativeLayoutTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ButtonColor" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_margin">@dimen/spacing8</item>
+        <item name="android:color">@color/colorPrimary</item>
+        <item name="android:theme">@style/ButtonColor</item>
+    </style>
+</resources>
